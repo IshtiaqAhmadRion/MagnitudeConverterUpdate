@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            app:cardCornerRadius="@dimen/card_corner_redious_5dp"
+            android:padding="@dimen/padding_8dp">
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_8dp"
+                android:background="@color/contactColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/golam_name"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsNameTextSize"
+                    android:textStyle="bold"/>
+
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/golam_mail"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsGmailTextSize"/>
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/golam_fb"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsFbTextSize"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            app:cardCornerRadius="@dimen/card_corner_redious_5dp"
+            android:padding="@dimen/padding_8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_8dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@color/contactColor"
+                android:orientation="vertical"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/mychacl_name"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsNameTextSize"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mychacl_mail"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsGmailTextSize"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mychacl_fb"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsFbTextSize"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            app:cardCornerRadius="@dimen/card_corner_redious_5dp"
+            android:padding="@dimen/padding_8dp">
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_8dp"
+                android:background="@color/contactColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/irfan_name"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsNameTextSize"
+                    android:textStyle="bold"/>
+
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/irfan_mail"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsGmailTextSize"/>
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/irfan_fb"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsFbTextSize"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            app:cardCornerRadius="@dimen/card_corner_redious_5dp"
+            android:padding="@dimen/padding_8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/contactColor"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="@dimen/margin_8dp"
+                android:orientation="vertical"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tarek_name"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsNameTextSize"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tarek_mail"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsGmailTextSize"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tarek_fb"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsFbTextSize"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            app:cardCornerRadius="@dimen/card_corner_redious_5dp"
+            android:padding="@dimen/padding_8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@color/contactColor"
+                android:layout_margin="@dimen/margin_8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/ishtiaq_name"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsNameTextSize"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ishtiaq_mail"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsGmailTextSize"/>
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ishtiaq_fb"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsFbTextSize"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            app:cardCornerRadius="@dimen/card_corner_redious_5dp"
+            android:padding="@dimen/padding_8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@color/contactColor"
+                android:layout_margin="@dimen/margin_8dp"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/reza_name"
+                    android:textColor="#000"
+                    android:textSize="@dimen/aboutUsNameTextSize"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reza_mail"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsGmailTextSize"/>
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reza_fb"
+                        android:textColor="#000"
+                        android:textSize="@dimen/aboutUsFbTextSize"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</ScrollView>

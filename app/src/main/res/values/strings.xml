@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Magnitude Converter</string>
+    <string name="to">To</string>
+    <string name="title">Magnitude Converter</string>
+
+    <string name="spinner_prompt">Choose</string>
+    <string name="category">Category</string>
+    <string name="numeric">Numeric</string>
+    <string name="convert_from">Convert From</string>
+    <string name="alphabetic">Alphabetic</string>
+
+
+    <string name="converted_to">Converted To</string>
+    <string name="submit">Submit</string>
+    <string name="categories">Categories</string>
+    <string name="currency">Currency</string>
+    <string name="length">Length</string>
+    <string name="number">Number</string>
+    <string name="word">Word</string>
+    <string name="pressure">Pressure</string>
+    <string name="temparature">Temparature</string>
+    <string name="time">Time</string>
+    <string name="weight">Weight</string>
+    <string name="currencysrc">currencysrc</string>
+    <string name="usd">USD</string>
+    <string name="from">From</string>
+    <string name="convert">convert</string>
+    <string name="bdt">BDT</string>
+
+
+
+    <string-array name="spinner_arrays">
+        <item>In Word</item>
+        <item>In Numeric</item>
+
+    </string-array>
+    <string-array name="currency">
+        <item>Doller $</item>
+        <item>BDT</item>
+        <item>Rupee</item>
+        <item>Pound</item>
+        <item>Yuan</item>
+        <item>Dirham</item>
+
+    </string-array>
+
+
+    <string name="golam_name">Golam Moula Mojumder</string>
+    <string name="golam_mail">toumalmojumder@gmail.com</string>
+    <string name="golam_fb">fb/toumalmojumder</string>
+
+    <string name="mychacl_name">Michacl Karmoker</string>
+    <string name="mychacl_mail">mskdesk@gmail.com</string>
+    <string name="mychacl_fb">fb/suvo94</string>
+
+    <string name="tarek_name">Mahmudul Hasan Tarek</string>
+    <string name="tarek_mail">tarekint1@gmail.com</string>
+    <string name="tarek_fb">fb/mahmudul.h.tarek</string>
+
+    <string name="ishtiaq_name">Ishtiaq Ahmad</string>
+    <string name="ishtiaq_mail">ishtiaq.ahmad5662@gmail.com</string>
+    <string name="ishtiaq_fb">fb/ahmad.rion</string>
+
+
+
+    <string name="irfan_name">MD. Irfan Hossain</string>
+    <string name="irfan_mail">irfanhossain.mizi@gmail.com</string>
+    <string name="irfan_fb">fb/dx.himu</string>
+
+
+    <string name="project_title">ADVANCED PROFESSIONAL COACHING WITH INDUSTRY ATTACHMENT</string>
+    <string name="project_email">pd.sdmga@gmail.com</string>
+    <string name="project_number">+88–02–8181286</string>
+    <string name="convert_edit_text_hint_usd">USD</string>
+    <string name="convert_edittext_hint_bdt">BDT</string>
+    <string name="convert_text_view_to">To</string>
+    <string name="convert_textview_from">From</string>
+
+    <string name="todo">TODO</string>
+    <string name="reza_name">Md Mahmudul Hasan Reza</string>
+    <string name="reza_mail">mdreza112415@gmail.com</string>
+    <string name="reza_fb">fb/Md.M.H.Reza</string>
+</resources>

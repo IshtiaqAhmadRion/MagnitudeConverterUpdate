@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/convert_backgroung_color"
+    tools:context=".ConvertActivity"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/convertiontype"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:layout_marginStart="@dimen/titlemarginstart_16dp"
+        android:layout_marginLeft="@dimen/titletextmarginleft_16dp"
+        android:layout_marginTop="@dimen/titlemargintop_10dp"
+
+        android:textColor="@color/convert_text_color"
+        android:textSize="@dimen/titletextsize_20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/convert_backgroung_color"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mylayout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/border"
+                android:hint="@string/convert_edit_text_hint_usd"
+                android:textSize="16sp"
+                android:paddingStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/convert_backgroung_color"
+                android:text="@string/convert_textview_from"
+                android:textAlignment="center"
+                android:textColor="@color/convert_text_color"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/spinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/spinner"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@color/convert_backgroung_color"
+                android:src="@drawable/ic_arrow_downward_black_24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/spinner"
+                app:layout_constraintHorizontal_bias="0.974"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/transfer"
+            android:layout_gravity="center"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mylayout1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/border"
+                android:hint="@string/convert_edit_text_hint_usd"
+                android:textSize="16sp"
+                android:paddingStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/convert_backgroung_color"
+                android:text="@string/convert_text_view_to"
+                android:textAlignment="center"
+                android:textColor="@color/convert_text_color"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/spinner1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/spinner1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/imagebutton1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@color/convert_backgroung_color"
+                android:src="@drawable/ic_arrow_downward_black_24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/spinner1"
+                app:layout_constraintHorizontal_bias="0.974"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/convert"
+
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:text="convert"
+        android:textColor="#fff"
+        android:drawableStart="@drawable/buttonlogo"
+        android:padding="@dimen/buttonPadding_8dp"
+        android:drawablePadding="@dimen/buttondrawablepadding_8dp"
+        android:layout_marginTop="@dimen/buttonmargintop_8dp"
+        android:textSize="@dimen/buttontextsize_28sp"
+        android:background="@drawable/buttonbg"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/buttonlogo" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mylayout2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:hint="@string/convert_edit_text_hint_usd"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-66dp"
+            android:background="@color/convert_backgroung_color"
+            android:text="@string/convert_text_view_to"
+            android:textAlignment="center"
+            android:textColor="@color/convert_text_color"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/spinner2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner2"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+</LinearLayout>
+
+
+

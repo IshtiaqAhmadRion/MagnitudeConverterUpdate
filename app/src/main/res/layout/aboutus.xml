@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:orientation="vertical"-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardCornerRadius="5dp"-->
+<!--        android:padding="@dimen/padding_5dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_margin="@dimen/margin_4dp"-->
+<!--            android:background="@color/contactColor"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:clickable="true"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical"-->
+<!--            android:focusable="true"-->
+<!--            >-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_margin="@dimen/margin_4dp"-->
+<!--                android:background="@color/contactColor"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="@dimen/imageview_100dp"-->
+<!--                    android:layout_height="@dimen/imageview_100dp"-->
+<!--                    android:src="@drawable/digbd"-->
+<!--                    android:contentDescription="@string/todo" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="0dp"-->
+<!--                    android:layout_weight="1"/>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="@dimen/imageview_100dp"-->
+<!--                    android:layout_height="@dimen/imageview_100dp"-->
+<!--                    android:src="@drawable/sdmg"-->
+<!--                    android:contentDescription="@string/todo" />-->
+<!--                <View-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="0dp"-->
+<!--                    android:layout_weight="1"/>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="@dimen/imageview_100dp"-->
+<!--                    android:layout_height="@dimen/imageview_100dp"-->
+<!--                    android:src="@drawable/ictbd"-->
+<!--                    android:contentDescription="@string/todo" />-->
+
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/project_title"-->
+<!--                android:textColor="@color/convert_text_color"-->
+<!--                android:textSize="@dimen/textsize_20sp"-->
+
+<!--                android:layout_marginEnd="@dimen/margin_4dp"-->
+<!--                android:layout_marginStart="@dimen/textViewMarginStart_4dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginLeft="@dimen/textViewMarginStart_4dp"-->
+<!--                android:layout_marginRight="@dimen/margin_4dp" />-->
+
+
+
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/project_email"-->
+<!--                android:textColor="@color/convert_text_color"-->
+<!--                android:textSize="@dimen/textsize_20sp"/>-->
+
+
+<!--            <TextView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/project_number"-->
+<!--                android:textColor="@color/convert_text_color"-->
+<!--                android:textSize="@dimen/textsize_20sp"/>-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+</LinearLayout>

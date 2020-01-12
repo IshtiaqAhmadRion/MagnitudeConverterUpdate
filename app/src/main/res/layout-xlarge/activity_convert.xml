@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/convert_backgroung_color"
+    tools:context=".ConvertActivity"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/titlemargintop_10dp"
+        android:id="@+id/convertiontype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:layout_marginLeft="@dimen/titletextmarginleft_16dp"
+        android:textColor="@color/convert_text_color"
+        android:textSize="@dimen/titletextsize_20sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/convert_backgroung_color"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mylayout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/constantlayoutmargin_8dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_margin="@dimen/edittextmargin_8dp"
+                android:background="@drawable/border"
+                android:hint="@string/convert_edit_text_hint_usd"
+                android:textSize="@dimen/edittexttextsize_16sp"
+                android:paddingStart="@dimen/edittextpaddingstart_10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingLeft="@dimen/edittextpaddingstart_10dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/convert_backgroung_color"
+                android:text="@string/convert_textview_from"
+                android:textAlignment="center"
+                android:textColor="@color/convert_text_color"
+                android:textSize="@dimen/textviewtextsize_12sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/spinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.055"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/spinner"
+                app:layout_constraintVertical_bias="0.0"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="@dimen/imageviewsize_25dp"
+                android:layout_height="@dimen/imageviewsize_25dp"
+                android:background="@color/convert_backgroung_color"
+                android:src="@drawable/ic_arrow_downward_black_24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/spinner"
+                app:layout_constraintHorizontal_bias="0.974"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ImageView
+            android:layout_width="@dimen/imageviewconvert_45dp"
+            android:layout_height="@dimen/imageviewconvert_45dp"
+            android:src="@drawable/transfer"
+            android:layout_gravity="center"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mylayout1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/constantlayoutmargin_8dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_margin="@dimen/edittextmargin_8dp"
+                android:background="@drawable/border"
+                android:hint="@string/convert_edit_text_hint_usd"
+                android:textSize="@dimen/edittexttextsize_16sp"
+                android:paddingStart="@dimen/edittextpaddingstart_10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingLeft="@dimen/edittextpaddingstart_10dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/convert_backgroung_color"
+                android:text="@string/convert_text_view_to"
+                android:textAlignment="center"
+                android:textColor="@color/convert_text_color"
+                android:textSize="@dimen/textviewtextsize_12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/spinner1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/spinner1"
+                app:layout_constraintVertical_bias="0.028" />
+
+            <ImageButton
+                android:id="@+id/imagebutton1"
+                android:layout_width="@dimen/imageviewsize_25dp"
+                android:layout_height="@dimen/imageviewsize_25dp"
+                android:background="@color/convert_backgroung_color"
+                android:src="@drawable/ic_arrow_downward_black_24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/spinner1"
+                app:layout_constraintHorizontal_bias="0.974"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/buttonmargintop_8dp"
+        android:background="@drawable/buttonbg"
+        android:drawableLeft="@drawable/buttonlogo"
+        android:padding="@dimen/buttonPadding_8dp"
+        android:drawablePadding="@dimen/buttondrawablepadding_8dp"
+        android:text="@string/convert"
+        android:textColor="#fff"
+        android:textSize="@dimen/buttontextsize_28sp"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mylayout2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/biglayoutmarginstart_8dp"
+            android:layout_marginEnd="@dimen/biglayoutmarginend_8dp"
+            android:layout_marginTop="@dimen/biglayoutmargintop_16dp"
+            android:layout_marginBottom="@dimen/biglayoutmarginbottom_8dp"
+            android:background="@drawable/border"
+            android:hint="@string/convert_edit_text_hint_usd"
+            android:textSize="@dimen/edittexttextsize_16sp"
+            android:paddingStart="@dimen/edittextpaddingstart_10dp"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingLeft="@dimen/edittextpaddingstart_10dp"
+            android:layout_marginLeft="@dimen/biglayoutmarginstart_8dp"
+            android:layout_marginRight="@dimen/biglayoutmarginend_8dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/convert_backgroung_color"
+            android:text="@string/convert_text_view_to"
+            android:textAlignment="center"
+            android:textColor="@color/convert_text_color"
+            android:textSize="@dimen/textviewtextsize_12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/spinner2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner2"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+</LinearLayout>
